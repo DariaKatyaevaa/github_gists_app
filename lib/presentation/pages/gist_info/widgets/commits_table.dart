@@ -15,9 +15,9 @@ class CommitsTable extends StatelessWidget {
     return RoundedFloatingContainer(
       child: Table(
         columnWidths: const {
-          0: FlexColumnWidth(2),
-          1: FlexColumnWidth(1),
-          2: FlexColumnWidth(1),
+          0: FlexColumnWidth(1.8),
+          1: FlexColumnWidth(1.1),
+          2: FlexColumnWidth(1.1),
         },
         border: TableBorder.all(
           color: Theme.of(context).textTheme.labelSmall!.color!,
