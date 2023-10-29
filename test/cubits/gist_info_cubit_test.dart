@@ -58,7 +58,7 @@ void main() {
       GistInfoLoadedState(
         gist: gist,
         commits: [commitsResponse.data!.first.toEntity()],
-        fileContents: ['file'],
+        fileContents: const ['file'],
       ),
     ],
   );
@@ -96,13 +96,13 @@ void main() {
       GistInfoLoadedState(
         gist: gist,
         commits: [commitsResponse.data!.first.toEntity()],
-        fileContents: ['file'],
+        fileContents: const ['file'],
       ),
       GistInfoLoadingState(),
       GistInfoLoadedState(
         gist: gist,
         commits: [commitsResponse.data!.first.toEntity()],
-        fileContents: ['file'],
+        fileContents: const ['file'],
       ),
     ],
   );
