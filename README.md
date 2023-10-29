@@ -5,6 +5,8 @@
 
 [Watch the video](https://drive.google.com/file/d/1iUTv9YABW-8KPuDTgltu_PbMmMIJ3xZW/view?usp=sharing)
 
+[APK](https://drive.google.com/file/d/1AU_r76WuuTyTw0vbu_fKTIS3JibomNww/view?usp=sharing)
+
 <img src="/preview/1.png" width="30%"> <img src="/preview/2.png" width="30%"> <img src="/preview/3.png" width="30%">
 <img src="/preview/4.png" width="30%"> <img src="/preview/5.png" width="30%"> <img src="/preview/6.png" width="30%">
 
