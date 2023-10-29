@@ -1,11 +1,18 @@
+import 'package:equatable/equatable.dart';
 import 'package:github_gists_app/domain/entities/gist.dart';
 import 'package:github_gists_app/domain/entities/commit.dart';
 
-abstract class GistInfoState {}
+abstract class GistInfoState extends Equatable {}
 
-class GistInfoInitialState extends GistInfoState {}
+class GistInfoInitialState extends GistInfoState {
+  @override
+  List<Object?> get props => [];
+}
 
-class GistInfoLoadingState extends GistInfoState {}
+class GistInfoLoadingState extends GistInfoState {
+  @override
+  List<Object?> get props => [];
+}
 
 class GistInfoErrorState extends GistInfoState {
   final Gist gist;
@@ -15,6 +22,12 @@ class GistInfoErrorState extends GistInfoState {
     required this.gist,
     required this.errorMessage,
   });
+
+  @override
+  List<Object?> get props => [
+        gist,
+        errorMessage,
+      ];
 }
 
 class GistInfoLoadedState extends GistInfoState {
@@ -27,4 +40,11 @@ class GistInfoLoadedState extends GistInfoState {
     required this.commits,
     required this.fileContents,
   });
+
+  @override
+  List<Object?> get props => [
+        gist,
+        commits,
+        fileContents,
+      ];
 }

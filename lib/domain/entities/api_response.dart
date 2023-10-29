@@ -1,4 +1,6 @@
-class ApiResponse<T> {
+import 'package:equatable/equatable.dart';
+
+class ApiResponse<T> extends Equatable {
   final bool isSuccess;
   final String? errorMessage;
   final T? data;
@@ -18,4 +20,11 @@ class ApiResponse<T> {
         isSuccess: false,
         errorMessage: errorMessage,
       );
+
+  @override
+  List<Object?> get props => [
+        isSuccess,
+        errorMessage,
+        data,
+      ];
 }
