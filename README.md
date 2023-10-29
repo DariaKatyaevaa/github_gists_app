@@ -1,13 +1,14 @@
 # Github gists app
 
-----
 
 ### Превью:
+
+[Watch the video](https://drive.google.com/file/d/1iUTv9YABW-8KPuDTgltu_PbMmMIJ3xZW/view?usp=sharing)
 
 <img src="/preview/1.png" width="30%"> <img src="/preview/2.png" width="30%"> <img src="/preview/3.png" width="30%">
 <img src="/preview/4.png" width="30%"> <img src="/preview/5.png" width="30%"> <img src="/preview/6.png" width="30%">
 
-<br/>
+
 ----
 
 ### Описание:
